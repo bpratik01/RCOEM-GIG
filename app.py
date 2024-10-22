@@ -169,7 +169,6 @@ def main():
     st.markdown("---")
     st.markdown("""
         <div style='text-align: center'>
-            <p>Made with ❤️ using Streamlit</p>
             <p>Data source: Bengaluru House Price Dataset</p>
         </div>
     """, unsafe_allow_html=True)

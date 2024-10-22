@@ -45,7 +45,7 @@ def load_model_and_data():
         model = joblib.load('model_pipeline.pkl')
         # Define top 15 frequent locations
         locations = [
-            "Whitefield", "Sarjapur Road", "Electronic City", "Kanakpura Road", "Thanisandra",
+            "Whitefield", "Electronic City", "Kanakpura Road", "Thanisandra",
             "Yelahanka", "Uttarahalli", "Hebbal", "Marathahalli", "Raja Rajeshwari Nagar",
             "Bannerghatta Road", "Hennur Road", "7th Phase JP Nagar", "Haralur Road", "Electronic City Phase II"
         ]
